@@ -10,6 +10,8 @@ I am a Master's student in Business Analytics. This repository contains projects
 1. [Sales Dashboard](./Sales-Dashboard) — interactive dashboard & insights
 2. [Customer Segmentation](./Customer-Segmentation) — clustering analysis
 3. [Churn Prediction](./Churn-Prediction) — predictive model and evaluation
+4.### 🎮 Quantum Dash — Visual Interactive Game
+A creative, fast-paced visual challenge game built with HTML, CSS, and JavaScript.
 
 
 ## Contact
