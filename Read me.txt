@@ -1,0 +1,85 @@
+Dissertation : Modeling and Optimizing the Efficiency–Resilience Trade-off in Multi-Echelon Inventory Systems Subject to Demand and Supply-Side Disruptions
+
+Degree
+
+MSc Business Analytics
+University of Exeter
+
+Author
+
+Rupesh Jain
+1. Overview
+
+This folder contains the supplementary materials supporting the dissertation, including Python scripts, raw and processed datasets, and documentation required to reproduce the analysis presented in the main report.
+
+All simulations, figures, and tables discussed in Chapters 3 and 4 of the dissertation were generated using the scripts and data provided here.
+
+2. Folder Structure
+
+/Dissertation_Final
+│
+├── Code (Python Scripts)
+│   ├── walmart_preprocess.py
+│   ├── 05_methodology_figures.py
+│   └── chapter4_all.py
+│
+├── Data RAW
+│   ├── train.xlsx
+│   ├── features.xlsx
+│   └── stores.xlsx
+│
+├── Data Processed
+│   ├── walmart_merged_clean.xlsx
+│   ├── top_5_store_dept_pairs.xlsx
+│   └── demand_series_store14_dept92.xlsx
+│
+└── README
+
+3. Code (Python Scripts)
+walmart_preprocess.py
+
+Cleans and merges the raw Walmart datasets (train, features, stores)
+Handles missing values and prepares a clean analytical dataset
+Outputs processed demand series used in the simulation model
+
+05_methodology_figures.py
+
+Generates methodology figures used in Chapter 3, including:
+Multi-echelon network diagram
+Disruption timeline
+Demand volatility profile
+Scenario matrix
+
+chapter4_all.py
+
+Core simulation script implementing the three-echelon inventory model
+Generates:
+Baseline, demand shock, supply shock, and combined shock simulations
+Performance tables (service level, unmet demand, holding cost)
+Trade-off curves (cost vs resilience)
+Outputs figures and tables referenced in Chapter 4
+
+4. Data RAW
+train.xlsx
+
+Weekly sales data at store–department level
+
+features.xlsx
+
+Additional contextual variables (e.g., holidays, promotions)
+
+stores.xlsx
+
+Store-level metadata
+
+These datasets are part of the publicly available Walmart Retail Dataset and are used as the empirical basis for demand modelling.
+
+5. Data Processed
+walmart_merged_clean.xlsx
+Fully cleaned and merged dataset used for analysis
+top_5_store_dept_pairs.xlsx
+Identifies high-volatility store–department combinations
+demand_series_store14_dept92.xlsx
+Final demand series selected for simulation
+Used directly in the multi-echelon inventory model
+
