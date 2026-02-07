@@ -92,5 +92,5 @@ A creative, fast-paced visual challenge game developed to demonstrate front-end 
 ---
 
 ## Contact
-- **LinkedIn:** https://www.linkedin.com/in/  
+- **LinkedIn:** https://www.linkedin.com/in/rupeshjain23 
 - **Email:** rupeshjain5679@gmail.com
